@@ -25,7 +25,7 @@ ENV VIRTUAL_ENV /opt/venv
 ENV POETRY_VIRTUALENVS_CREATE false
 ENV POETRY_NO_INTERACTION 1
 
-ENV PATH "$VIRTUAL_ENV/bin:$PATH"
+ENV PATH "$VIRTUAL_ENV/bin:/home/user/.local/bin:$PATH"
 
 # Set up virtual environment and install poetry
 RUN python -m venv $VIRTUAL_ENV \
