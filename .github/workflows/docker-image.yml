@@ -31,4 +31,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/mazyod/python:1.0
+            ghcr.io/mazyod/python:1.1
